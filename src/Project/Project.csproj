@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bit.BlazorUI" Version="*" />
+    <PackageReference Include="Bit.BlazorUI.Assets" Version="*" />
+    <PackageReference Include="Bit.BlazorUI.Icons" Version="*" />
+    <PackageReference Include="Bit.BlazorUI.Extras" Version="*" />
+    <PackageReference Include="Bit.CodeAnalyzers" Version="*" />
+    <PackageReference Include="Bit.SourceGenerators" Version="*" />
+  </ItemGroup>
+
+</Project>
